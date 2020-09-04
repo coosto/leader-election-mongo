@@ -1,0 +1,9 @@
+.gitignore
+.idea
+.eslintrc
+.prettierrc
+.travis.yml
+.npmignore
+.DS_Store
+.env
+package-lock.json

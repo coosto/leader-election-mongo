@@ -1,0 +1,38 @@
+{
+  "name": "leader-election-mongo",
+  "version": "0.0.2",
+  "description": "Leader election backed by MongoDB",
+  "main": "src/index.js",
+  "scripts": {
+    "eslint": "eslint src/index.js",
+    "eslint-fix": "eslint --fix src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coosto/leader-election-mongo.git"
+  },
+  "keywords": [
+    "mongo",
+    "leader"
+  ],
+  "author": "Jeremy Buchmann",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/coosto/leader-election-mongo/issues"
+  },
+  "homepage": "https://github.com/coosto/leader-election-mongo#readme",
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-prettier": "6.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.21.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "3.1.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier": "2.0.5"
+  },
+  "dependencies": {
+    "mongodb": "^3.5.8"
+  }
+}
